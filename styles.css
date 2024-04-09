@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('sky-background.jpg'); /* Replace 'sky-background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 20px 40px;
+    border: none;
+    background-color: #2ecc71; /* Change button color to a nice blue-green */
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .btn:hover {
+    background-color: #27ae60; /* Darken button color on hover */
+  }
+  
